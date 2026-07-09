@@ -1,0 +1,27 @@
+{
+	"name": "@prochat/memory",
+	"version": "0.1.0",
+	"description": "Self-contained private-beta CLI distribution for ProChat Memory for QA.",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"type": "module",
+	"bin": {
+		"prochat": "./dist/cli/index.js"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE.md"
+	],
+	"scripts": {
+		"build": "node ./scripts/package.mjs build",
+		"pack:beta": "node ./scripts/package.mjs pack",
+		"pack:inspect": "node ./scripts/package.mjs inspect",
+		"pack:test": "node ./scripts/package.mjs test"
+	},
+	"engines": {
+		"node": ">=22.13.0"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

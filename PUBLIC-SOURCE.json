@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "product": "ProChat Memory for QA",
+  "version": "0.1.0",
+  "packageName": "@prochat/memory",
+  "packageVersion": "0.1.0",
+  "sourceCommit": "d05b3b7addf0bfe3c7f97a4252807484b97aedf7",
+  "exportedAt": "2026-07-09T09:57:44.717Z",
+  "exportFormatVersion": 1,
+  "mcpIncluded": false
+}
