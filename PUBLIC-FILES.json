@@ -9,11 +9,14 @@
     "SECURITY.md",
     "TRADEMARKS.md",
     "VERSION.md",
+    "biome.json",
     "docs/ARCHITECTURE.md",
     "docs/INSTALLATION.md",
     "docs/PRIVACY-AND-SAFETY.md",
     "docs/QUICKSTART.md",
     "docs/TROUBLESHOOTING.md",
+    "package-lock.json",
+    "package.json",
     "packages/cli/package.json",
     "packages/cli/src/index.ts",
     "packages/cli/tsconfig.json",
@@ -32,6 +35,7 @@
     "packages/core/src/workspace.ts",
     "packages/core/tsconfig.json",
     "packages/distribution/package.json",
-    "packages/distribution/scripts/package.mjs"
+    "packages/distribution/scripts/package.mjs",
+    "tsconfig.json"
   ]
 }

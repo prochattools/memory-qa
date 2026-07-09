@@ -1,0 +1,26 @@
+{
+	"name": "prochat-memory-qa-public-snapshot",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Source-available beta snapshot for ProChat Memory for QA: local QA investigation memory for recurring test failures.",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"type": "module",
+	"workspaces": [
+		"packages/core",
+		"packages/cli",
+		"packages/distribution"
+	],
+	"scripts": {
+		"build": "npm run build --workspace @prochat/memory-core && npm run build --workspace @prochat/memory-cli",
+		"typecheck": "npm run typecheck --workspace @prochat/memory-core && npm run typecheck --workspace @prochat/memory-cli",
+		"quickstart": "node packages/cli/dist/index.js --help"
+	},
+	"engines": {
+		"node": ">=22.13.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.2.4"
+	}
+}

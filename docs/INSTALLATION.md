@@ -31,7 +31,7 @@ If ProChat supplied a tarball, verify the filename and SHA-256 checksum against 
 From the checked-out beta source repository:
 
 ```bash
-npm ci --ignore-scripts
+npm install --ignore-scripts
 npm run build
 node packages/cli/dist/index.js --help
 ```
