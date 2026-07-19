@@ -2,6 +2,8 @@
 
 **Stop solving the same QA failure twice.**
 
+A local-first QA memory system for capturing reusable evidence from recurring failures, CI investigations, and regression work.
+
 ProChat Memory for QA is a local, source-available beta for QA testers and test teams that use AI during failed-test investigation. It helps testers capture reviewed lessons from failed tests, CI output, exploratory testing, manual QA, selector problems, test data issues, environment differences, root causes, fixes, and ruled-out hypotheses, then retrieve those lessons when a similar failure appears again.
 
 It is not a test runner and it does not replace Playwright, Cypress, Selenium, Robot Framework, CI systems, Jira, TestRail, or tester judgment. It adds a local memory layer around the tools testers already use.
@@ -239,3 +241,9 @@ Each generated public snapshot records the source commit, version, export timest
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — beta feedback and contribution policy;
 - [`SECURITY.md`](SECURITY.md) — security reporting guidance;
 - [`VERSION.md`](VERSION.md) — version and release metadata.
+
+## Maintainer
+
+Created and maintained by
+[Steve Westhoek](https://github.com/stevewesthoek)
+under the [ProChat organization](https://github.com/prochattools).
