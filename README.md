@@ -8,12 +8,6 @@ ProChat Memory for QA is a local, source-available beta for QA testers and test 
 
 It is not a test runner and it does not replace Playwright, Cypress, Selenium, Robot Framework, CI systems, Jira, TestRail, or tester judgment. It adds a local memory layer around the tools testers already use.
 
-This repository is designed for three audiences:
-
-- **QA recruiters and interviewers** who want to understand the practical QA problem this project solves;
-- **technical reviewers** who want to inspect the architecture, source, safety boundaries, and release model;
-- **approved beta testers** who want clear installation, usage, feedback, and licensing guidance.
-
 ## The problem
 
 QA teams repeatedly investigate failures that look new but are actually variations of earlier problems:
